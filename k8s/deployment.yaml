@@ -1,0 +1,33 @@
+apiVersion: apps/v1
+kind: Deployment
+
+metadata:
+  name: margin-agent
+  namespace: agent-poc
+
+spec:
+  replicas: 1
+
+  selector:
+    matchLabels:
+      app: margin-agent
+
+  template:
+    metadata:
+      labels:
+        app: margin-agent
+
+    spec:
+      serviceAccountName: margin-agent-ksa
+
+      containers:
+        - name: margin-agent
+
+          image: asia-south1-docker.pkg.dev/diabot-b617c/agent-images/margin-agent:v1
+
+          ports:
+            - containerPort: 8000
+
+          env:
+            - name: GOOGLE_GENAI_USE_VERTEXAI
+              value: "TRUE"
