@@ -23,7 +23,7 @@ spec:
       containers:
         - name: margin-agent
 
-          image: asia-south1-docker.pkg.dev/diabot-b617c/agent-images/margin-agent:v1
+          image: *******************/************/agent-images/margin-agent:v1
 
           ports:
             - containerPort: 8000
