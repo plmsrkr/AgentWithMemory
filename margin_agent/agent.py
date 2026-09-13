@@ -15,8 +15,8 @@ os.environ["GOOGLE_GENAI_USE_VERTEXAI"] = "TRUE"
 
 # Initialize Vertex AI SDK
 vertexai.init(
-    project="diabot-b617c",
-    location="asia-south1",
+    project="*******",
+    location="********",
 )
 
 
