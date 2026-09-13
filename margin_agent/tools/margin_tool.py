@@ -1,9 +1,9 @@
 from google.cloud import bigquery
 
 
-PROJECT_ID = "diabot-b617c"
-DATASET_ID = "test"
-TABLE_ID = "margin_data"
+PROJECT_ID = "******"
+DATASET_ID = "******"
+TABLE_ID = "*****"
 
 
 from decimal import Decimal
