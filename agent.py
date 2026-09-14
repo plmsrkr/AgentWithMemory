@@ -18,8 +18,8 @@ BASE_DIR = Path(__file__).resolve().parent
 
 
 vertexai.init(
-    project="diabot-b617c",
-    location="asia-south1",
+    project="****",
+    location="****",
 )
 
 
