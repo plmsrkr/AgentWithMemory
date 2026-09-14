@@ -1,0 +1,54 @@
+capabilities:
+
+  margin_data:
+    type: data
+    tool: margin_data
+    description: >
+      Retrieve margin, revenue and cost data.
+
+  forecast_data:
+    type: data
+    tool: forecast_data
+    description: >
+      Retrieve forecast data.
+  sales_data:
+    type: data
+    tool: sales_data
+    description: >
+      Retrieve actual sales and units data.
+      
+  statistical_analysis:
+    type: statistics
+    tool: statistics
+    description: >
+      Perform statistical analysis.
+
+  margin_analysis:
+    type: reasoning
+    skill: margin_analysis
+    description: >
+      Analyze margin movement and deterioration.
+
+  forecast_variance:
+    type: reasoning
+    skill: forecast_variance
+    description: >
+      Analyze actual versus forecast variance.
+
+  root_cause_analysis:
+    type: reasoning
+    skill: root_cause_analysis
+    description: >
+      Diagnose likely drivers using multiple evidence sources.
+
+  skill_loader:
+    type: system
+    tool: skill_loader
+    description: >
+      Dynamically load reasoning skill instructions.
+
+  web_search:
+    type: web
+    tool: web_search
+    description: >
+      Retrieve current external information.

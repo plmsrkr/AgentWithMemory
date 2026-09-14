@@ -1,0 +1,29 @@
+skills:
+
+  margin_analysis:
+    file: margin_analysis.md
+
+    required_tools:
+      - margin_data
+
+    optional_tools:
+      - sales_data
+      - forecast_data
+      - cost_data
+
+    description: >
+      Investigate margin deterioration.
+
+  root_cause_analysis:
+    file: root_cause_analysis.md
+
+    description: >
+      Diagnose likely causes of business metric deterioration
+      using evidence from multiple domains.
+
+  forecast_variance:
+    file: forecast_variance.md
+
+    description: >
+      Compare actual performance against forecast and explain
+      material variance.
